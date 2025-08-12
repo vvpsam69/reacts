@@ -1,0 +1,43 @@
+.App{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.items,
+.cart{
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 45%;
+}
+.items h2,
+.cart h2{
+  margin: 0;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+li{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+button{
+  background-color: #207935;
+  color:#fff ;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #1e568b;
+}
+
+
+
+
+
+
